@@ -1,18 +1,26 @@
 <!DOCTYPE html>
+<html>
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Popis albuma</title>
     <link rel="stylesheet" type="text/css" href="csss.css">
     <style>
-        header {
+        body {
             background-color: lightgrey;
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+        }
+        header {
+            background-color: rgba(0, 0, 0, 0.5);
             padding: 20px;
             text-align: center;
         }
         header h1 {
             font-size: 40px;
             margin-bottom: 20px;
+            color: white;
         }
         nav ul {
             list-style-type: none;
@@ -25,14 +33,23 @@
         }
         nav ul li a {
             text-decoration: none;
-            color: black;
+            color: white;
+        }
+        main {
+            background-color: rgba(255, 255, 255, 0.8);
+            padding: 20px;
+            text-align: center;
+        }
+        section {
+            margin-bottom: 20px;
         }
     </style>
 </head>
 <body>
+
     <header>
-        <div style="background-color: grey; padding: 20px;">
-            <h1 style="color: white;">Popis albuma</h1>
+        <div>
+            <h1>Popis albuma</h1>
         </div>
         <nav>
             <ul>
@@ -43,3 +60,17 @@
             </ul>
         </nav>
     </header>
+
+    <main>
+        <section>
+            <h2>Popis albuma</h2>
+            <p>Ovdje možete pronaći popis albuma.</p>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Your Website. All rights reserved.</p>
+    </footer>
+
+</body>
+</html>
