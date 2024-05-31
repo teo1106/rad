@@ -5,6 +5,15 @@
     <title>Kontaktiraj nas</title>
     <link rel="stylesheet" type="text/css" href="csss.css">
     <style>
+        body {
+            background-image: url("cenc2.jpg");
+            background-size: cover;
+            background-position: center;
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+            color: white;
+        }
         header {
             background-color: lightgrey;
             padding: 20px;
@@ -64,24 +73,24 @@
 <body>
     <header>
         <div style="background-color: grey; padding: 20px;">
-            <h1 style="color: white;">Kontaktiraj nas</h1>
+            <h1 style="color: white;">Contact Us</h1>
         </div>
         <nav>
             <ul>
                 <li><a href="index.html">Home</a></li>
-                <li><a href="about.html">Popis albuma</a></li>
-                <li><a href="services.html">Slike</a></li>
-                <li><a href="contact.html">Kontakt</a></li>
+                <li><a href="about.html">Albums</a></li>
+                <li><a href="services.html">Career</a></li>
+                <li><a href="contact.html">Contact</a></li>
             </ul>
         </nav>
     </header>
     <main>
         <section>
             <form action="submit.php" method="POST">
-                <input type="text" id="name" name="name" placeholder="Vaše ime" required><br>
-                <input type="email" id="email" name="email" placeholder="Vaš Email" required><br>
-                <textarea id="message" name="message" placeholder="Vaša poruka" required></textarea><br>
-                <input type="submit" value="Pošalji">
+                <input type="text" id="name" name="name" placeholder="Your name" required><br>
+                <input type="email" id="email" name="email" placeholder="Your Email" required><br>
+                <textarea id="message" name="message" placeholder="Your message" required></textarea><br>
+                <input type="submit" value="Send">
             </form>
         </section>
     </main>
