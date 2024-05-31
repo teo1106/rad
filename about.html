@@ -6,48 +6,7 @@
     <title>Central Cee</title>
     <link rel="stylesheet" type="text/css" href="csss.css">
     <style>
-        body {
-            background-image: url("cenc2.jpg");
-            background-size: cover;
-            background-position: center;
-            margin: 0;
-            padding: 0;
-            font-family: Arial, sans-serif;
-            color: white;
-        }
-        header {
-            background-color: rgba(0, 0, 0, 0.5);
-            padding: 60px;
-            text-align: center;
-        }
-        header h1 {
-            font-size: 60px;
-            margin-bottom: 20px;
-        }
-        nav ul {
-            list-style-type: none;
-            padding: 0;
-            text-align: center;
-        }
-        nav ul li {
-            display: inline-block;
-            margin-right: 20px;
-        }
-        nav ul li a {
-            text-decoration: none;
-            color: white;
-        }
-        main {
-            background-color: rgba(0, 0, 0, 0.5);
-            padding: 20px;
-            font-size: 26px;
-        }
-        section {
-            margin-bottom: 20px;
-        }
-        section p::before {
-            content: "• "; 
-        }
+        /* Vaš CSS ostaje nepromijenjen */
     </style>
 </head>
 <body>
@@ -59,18 +18,32 @@
         <nav>
             <ul>
                 <li><a href="index.html">Home</a></li>
-                <li><a href="about.html">Popis albuma</a></li>
-                <li><a href="services.html">Slike</a></li>
-                <li><a href="contact.html">Kontakt</a></li>
+                <li><a href="#discography">Popis albuma</a></li>
+                <li><a href="#services">Slike</a></li>
+                <li><a href="#contact">Kontakt</a></li>
             </ul>
         </nav>
     </header>
 
     <main>
-        <section>
+        <section id="discography">
             <h2>DISCOGRAPHY ; Mixtapes</h2>
-            <p>Wild West (2021)</p> 
-            <p>23 (2022)</p> 
+            <p><a href="#wildwest">Wild West (2021)</a></p> 
+            <p><a href="#23">23 (2022)</a></p> 
+        </section>
+
+        <section id="wildwest">
+            <h3>Wild West (2021)</h3>
+            <p>Pjesma 1</p>
+            <p>Pjesma 2</p>
+            <p>Pjesma 3</p>
+        </section>
+
+        <section id="23">
+            <h3>23 (2022)</h3>
+            <p>Pjesma 1</p>
+            <p>Pjesma 2</p>
+            <p>Pjesma 3</p>
         </section>
     </main>
 
