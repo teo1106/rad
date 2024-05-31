@@ -79,6 +79,24 @@
         .map .row:first-child {
             font-weight: bold;
         }
+        .table-container {
+            position: fixed;
+            top: 50%;
+            transform: translateY(-50%);
+            right: 10px;
+        }
+        table {
+            border-collapse: collapse;
+            width: 300px;
+        }
+        th, td {
+            border: 1px solid white;
+            padding: 8px;
+            text-align: left;
+        }
+        th {
+            background-color: rgba(0, 0, 0, 0.5);
+        }
     </style>
 </head>
 <body>
@@ -164,6 +182,37 @@
                 <div>Glasgow</div>
                 <div>The SSE Hydro</div>
             </div>
+        </div>
+        <div class="table-container">
+            <table>
+                <tr>
+                    <th>DATE</th>
+                    <th>CITY</th>
+                    <th>VENUE</th>
+                </tr>
+                <tr>
+                    <td>2022-05-15</td>
+                    <td>London</td>
+                    <td>O2 Arena</td>
+                </tr>
+                <!-- Add more rows here -->
+                <!-- Example rows -->
+                <tr>
+                    <td>2022-05-16</td>
+                    <td>Manchester</td>
+                    <td>Manchester Arena</td>
+                </tr>
+                <tr>
+                    <td>2022-05-17</td>
+                    <td>Birmingham</td>
+                    <td>Birmingham Arena</td>
+                </tr>
+                <tr>
+                    <td>2022-05-18</td>
+                    <td>Glasgow</td>
+                    <td>The SSE Hydro</td>
+                </tr>
+            </table>
         </div>
     </main>
 
