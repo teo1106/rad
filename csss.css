@@ -4,8 +4,6 @@ body {
     background-position: center;
     background-repeat: no-repeat; 
 }
-
-/* Ostatak vašeg CSS-a ostaje isti */
 p.citat {
     font-style: italic;
     font-size: 11px;
@@ -36,4 +34,4 @@ header h1 {
 nav ul li a {
     text-decoration: none;
     color: white;
-    margin-top: -10px; 
+    margin-top: 10px; 
