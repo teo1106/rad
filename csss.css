@@ -1,18 +1,19 @@
 body {
     background-image: url("cenc1.jpg");
-    background-size: cover;
+    background-size: 1920px 1080px; 
     background-position: center;
+    background-repeat: no-repeat; 
 }
 
-p.citat
-{
+/* Ostatak vašeg CSS-a ostaje isti */
+p.citat {
     font-style: italic;
-    font size: 11px;
+    font-size: 11px;
     border: solid #000;
     background-color: #fff000;
 }
-p.drugi
-{
+
+p.drugi {
     font-color: #b22222;
     text-align: center;
     text-decoration: underline;
@@ -23,9 +24,7 @@ p.drugi
     border-right-color: #008000;
     border-top-color: #008000;
 }
-p.treci
-{
+
+p.treci {
     text-align: right;
 }
-    
-    
