@@ -61,6 +61,24 @@
             width: 80px;
             margin-bottom: 5px;
         }
+        .map {
+            background-color: rgba(0, 0, 0, 0.5);
+            width: 200px;
+            position: fixed;
+            left: 0;
+            top: 50%;
+            transform: translateY(-50%);
+            padding: 10px;
+            color: white;
+        }
+        .map .row {
+            display: flex;
+            justify-content: space-between;
+            margin-bottom: 5px;
+        }
+        .map .row:first-child {
+            font-weight: bold;
+        }
     </style>
 </head>
 <body>
@@ -118,6 +136,35 @@
                 <p><a href="https://www.youtube.com/watch?v=wBRsDOjcye4">15. "End of the Beginning"</a></p>
             </div>
         </section>
+        <div class="map">
+            <div class="row">
+                <div>DATE</div>
+                <div>CITY</div>
+                <div>VENUE</div>
+            </div>
+            <div class="row">
+                <div>2022-05-15</div>
+                <div>London</div>
+                <div>O2 Arena</div>
+            </div>
+            <!-- Add more rows here -->
+            <!-- Example rows -->
+            <div class="row">
+                <div>2022-05-16</div>
+                <div>Manchester</div>
+                <div>Manchester Arena</div>
+            </div>
+            <div class="row">
+                <div>2022-05-17</div>
+                <div>Birmingham</div>
+                <div>Birmingham Arena</div>
+            </div>
+            <div class="row">
+                <div>2022-05-18</div>
+                <div>Glasgow</div>
+                <div>The SSE Hydro</div>
+            </div>
+        </div>
     </main>
 
     <footer>
