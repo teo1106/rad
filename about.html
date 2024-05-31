@@ -6,7 +6,48 @@
     <title>Central Cee</title>
     <link rel="stylesheet" type="text/css" href="csss.css">
     <style>
-        /* Vaš CSS ostaje nepromijenjen */
+        body {
+            background-image: url("cenc2.jpg");
+            background-size: cover;
+            background-position: center;
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+            color: white;
+        }
+        header {
+            background-color: rgba(0, 0, 0, 0.5);
+            padding: 60px;
+            text-align: center;
+        }
+        header h1 {
+            font-size: 60px;
+            margin-bottom: 20px;
+        }
+        nav ul {
+            list-style-type: none;
+            padding: 0;
+            text-align: center;
+        }
+        nav ul li {
+            display: inline-block;
+            margin-right: 20px;
+        }
+        nav ul li a {
+            text-decoration: none;
+            color: white;
+        }
+        main {
+            background-color: rgba(0, 0, 0, 0.5);
+            padding: 20px;
+            font-size: 26px;
+        }
+        section {
+            margin-bottom: 20px;
+        }
+        section p::before {
+            content: "• "; 
+        }
     </style>
 </head>
 <body>
@@ -28,33 +69,17 @@
     <main>
         <section>
             <h2>DISCOGRAPHY ; Mixtapes</h2>
-            <p><a href="#wildwest">Wild West (2021)</a> <button onclick="toggleVisibility('wildwest')">Prikaži pjesme</button></p> 
+            <p><a>Wild West (2021)</a> <button onclick="toggleVisibility('wildwest')">Prikaži pjesme</button></p> 
             <div id="wildwest" style="display: none;">
                 <p>Pjesma 1</p>
-                <p>Pjesma 2</p>
-            </div>
-            <p><a href="#23">23 (2022)</a> <button onclick="toggleVisibility('twentythree')">Prikaži pjesme</button></p> 
-            <div id="twentythree" style="display: none;">
-                <p>Pjesma 1</p>
-                <p>Pjesma 2</p>
-            </div>
+                <p>Pjesma 2</p> 
+            <p>23 (2022)</p> 
         </section>
     </main>
 
     <footer>
         <p>&copy; 2024 Your Website. All rights reserved.</p>
     </footer>
-
-    <script>
-        function toggleVisibility(sectionId) {
-            var section = document.getElementById(sectionId);
-            if (section.style.display === "none") {
-                section.style.display = "block";
-            } else {
-                section.style.display = "none";
-            }
-        }
-    </script>
 
 </body>
 </html>
